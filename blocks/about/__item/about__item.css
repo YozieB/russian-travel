@@ -1,0 +1,9 @@
+.about__item {
+    grid-column: 7 span;
+}
+
+@media (max-width: 768px) {
+    .about__item {
+        grid-column: 10 span;
+    }
+}
