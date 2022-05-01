@@ -32,7 +32,7 @@
             ". title ."
             ". info ."
             "img img img"
-            ". descr. "
+            ". descr. ";
     }
 
     .place:not(.place:first-child) {
