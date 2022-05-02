@@ -5,6 +5,10 @@
     line-height: 28px;
 }
 
+.header__language-item:hover{
+    cursor: pointer;
+}
+
 .header__language-item:first-child {
     margin-right: 18px;
 }
