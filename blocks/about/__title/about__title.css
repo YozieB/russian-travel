@@ -6,9 +6,15 @@
     line-height: 58px;
 }
 
+@media (max-width: 1024px) {
+    .about__title {
+        grid-column: 9 span;
+    }
+}
+
 @media (max-width: 768px) {
     .about__title {
-        grid-column: 10 span;
+        grid-column: 12 span;
     }
 }
 
