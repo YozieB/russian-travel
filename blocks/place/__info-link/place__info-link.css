@@ -5,8 +5,9 @@
     text-decoration-line: underline;
     text-underline-offset: 3px;
     color: #fff;
+    transition: opacity .3s ease;
 }
 
 .place__info-link:hover {
-    cursor: pointer;
+    opacity: 0.8;
 }
