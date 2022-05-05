@@ -1,8 +1,16 @@
 .gallery {
     padding: 92px 0;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 16px;
+    max-width: 1184px;
+}
+
+@media (max-width: 1184px) {
+    .gallery {
+        padding: 92px 48px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -13,14 +21,14 @@
 
 @media (max-width: 768px) {
     .gallery {
-        padding: 88px 0;
+        padding: 88px 24px;
         gap: 16px;
     }
 }
 
 @media (max-width: 425px) {
     .gallery {
-        padding: 64px 0;
+        padding: 64px 16px;
         gap: 16px 0;
     }
 }

@@ -4,8 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 0;
-    max-height: 0;
+    min-height: 740px;
     background: url("../../../images/cover.jpg");
     background-size: cover;
     background-position: center;
@@ -13,7 +12,6 @@
     transition: all .3s linear;
     text-decoration: none;
     color: #fff;
-    padding: 31.5% 0;
 }
 
 .cover__inner::before {
@@ -31,4 +29,35 @@
 
 .cover__inner:hover::before {
     opacity: .8;
+}
+
+
+@media (max-width: 1024px) {
+    .cover__inner {
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__inner {
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 520px) {
+    .cover__inner {
+        min-height: 340px;
+    }
+}
+
+@media (max-width: 390px) {
+    .cover__inner {
+        min-height: 260px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__inner {
+        min-height: 200px;
+    }
 }
